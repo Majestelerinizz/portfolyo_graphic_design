@@ -397,7 +397,7 @@ export function Monogram() {
           fontSize="18"
           letterSpacing="8"
         >
-          DESIGN BY
+          KARAGÜZEL
         </text>
       </svg>
     </div>

@@ -18,8 +18,8 @@ const sans = Outfit({
 
 export const metadata = {
   title: {
-    default: "Design By KARAGUZEL",
-    template: "%s — Design By KARAGUZEL",
+    default: "Design By KARAGÜZEL",
+    template: "%s — Design By KARAGÜZEL",
   },
   description:
     "Yusuf Karagüzel grafik tasarım portföyü. Kimlik, afiş, ambalaj ve tipografi.",

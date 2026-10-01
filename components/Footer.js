@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="wrap">
-        <p className="footer-word">KARAGUZEL</p>
+        <p className="footer-word">KARAGÜZEL</p>
         <div className="footer-meta">
           <span>Yusuf Karagüzel</span>
           <span>Grafik tasarım portföyü</span>

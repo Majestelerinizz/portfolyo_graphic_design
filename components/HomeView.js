@@ -12,7 +12,7 @@ export function HomeView() {
             <span className="line-small">
               Design <em>By</em>
             </span>
-            <span className="line-huge">KARAGUZEL</span>
+            <span className="line-huge">KARAGÜZEL</span>
           </h1>
           <span className="hero-rule" aria-hidden="true" />
           <div className="hero-bottom">
@@ -35,11 +35,12 @@ export function HomeView() {
         <div className="wrap">
           <div className="section-head">
             <h2>Kategoriler</h2>
-            <p>Her başlık kendi sayfasında, işlerle dolu.</p>
+            <p>Beş raf. Her rafta kendi işi, kendi anlatısı.</p>
           </div>
           <div className="category-grid">
             {categories.map((category) => {
-              const first = projectsIn(category)[0]
+              const works = projectsIn(category)
+              const first = works[0]
               return (
                 <Link
                   key={category.slug}
@@ -48,8 +49,12 @@ export function HomeView() {
                 >
                   <img src={first.images.hero} alt="" />
                   <span className="category-card-copy">
+                    <em>{category.index}</em>
                     <strong>{category.title}</strong>
                     <span>{category.summary}</span>
+                    <span className="category-card-works">
+                      {works.map((project) => project.title).join(" · ")}
+                    </span>
                   </span>
                 </Link>
               )

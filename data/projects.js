@@ -11,6 +11,11 @@ export const projects = [
       "Green Bird, doğadan gelen malzemeyle sürdürülebilir bir tekstil markası olarak kuruldu. İşaretin afişte, dergi sayfasında, çanta kalıbında ve broşürde aynı kaldığı bir sistem gerekiyordu.",
     concept:
       "Yeşil bir kuş işareti ve sakin bir zemin. Marka adı büyük durur; desen, afiş ve basılı iş aynı yeşil aileyi kullanır.",
+    story: [
+      "Organik pamuk, yeşil bir söz. Kuş işareti bunu tek bakışta söylüyor. Asıl iş, o işaretin dergi sayfasında, çanta kalıbında ve broşür kırılımında aynı ağırlıkta kalmasıydı.",
+      "Afişte marka adı büyük duruyor. Desende kuş tekrar ediyor. Broşürde bilgi ikinci plana çekiliyor. Üçü de aynı yeşil aileyi kullanıyor; hiçbiri diğerinin kopyası değil.",
+      "İşaret ve kalıp Illustrator’da, dergi ve broşür sayfası InDesign’da kuruldu. Sistem tek bir dosyada değil, yüzey değiştikçe sınandı.",
+    ],
     outcome:
       "Logo, kurumsal afiş, dergi sayfası, tekrarlayan desen, çanta kalıbı ve broşür tek sistemde toplandı.",
     services: ["Logo", "Afiş", "Dergi", "Ambalaj", "Broşür"],
@@ -38,6 +43,11 @@ export const projects = [
       "Gaia, oyun hissi taşıyan bir kafe. Logonun menüde, pakette ve küçük promosyon ürünlerinde bozulmadan durması istendi.",
     concept:
       "Kırmızı ve yeşil harfler, oyun düğmesini andıran bir üçgen. Piksel zemin menüde kalır; logo her zeminde tek başına da okunur.",
+    story: [
+      "Gaia bir kafe, masada oyun da var. Logo bunu bağırmadan söylemeliydi: kırmızı ve yeşil harf, ortada bir üçgen. Üçgen hem bir parça hem bir düğme.",
+      "Menüde piksel zemin oyunu taşıyor. Kahve paketinde, şapkada ve kibritte zemin düşüyor; işaret tek başına kalıyor. Kartvizit aynı paleti elin içine indiriyor.",
+      "Kimlik burada bir klasör değil. Menüden kibrit kutusuna kadar aynı işaret, farklı ölçeklerde okunuyor.",
+    ],
     outcome: "Logo, menü, kahve paketi, kova şapka ve kibrit kutusu aynı işareti taşır.",
     services: ["Logo", "Menü", "Ambalaj", "Promosyon"],
     images: { hero: "/work/gaia/menu.jpg" },
@@ -64,6 +74,10 @@ export const projects = [
       "Velora Coffee için tek bir görselin üç açık hava formatında okunması gerekiyordu: dikey billboard, durak ve yatay otobüs giydirmesi.",
     concept:
       "Altın örümcek işareti ve tek soru: bu bir kahve mi, örümcek mi? Koyu zemin, fincan ve işaret her formatta yer değiştirir; cümle aynı kalır.",
+    story: [
+      "Tek bir soru üç yüzeye yazıldı: bu bir kahve mi, örümcek mi? Billboard dik, durak daha yakın, otobüs yatay. Kompozisyon her seferinde yeniden kuruldu; cümle ve altın işaret aynı kaldı.",
+      "Açık havada yazı küçülür, mesafe artar. Fincan ve örümcek format değişince yer değiştirir, ikisi birden kaybolmaz. Afiş uzaktan da, durakta beklerken de okunur.",
+    ],
     outcome: "Billboard, durak ve otobüs yüzeyleri tek kompozisyondan türetildi.",
     services: ["Billboard", "Durak", "Otobüs"],
     images: { hero: "/work/velora/billboard.jpg" },
@@ -85,6 +99,11 @@ export const projects = [
       "Mino Bebe, sütlü meyveli tahıllı bir ek gıda. Kutunun ön yüzü, yan bilgileri ve açılım kalıbı birlikte tasarlanacaktı.",
     concept:
       "Açık sarı zemin, kırmızı logo ve meyve çizimleri. Bilgi tablosu kalıbın içinde durur; ön yüz ürünü bir bakışta anlatır.",
+    story: [
+      "Bebek ek gıdası rafta bağırmaz, anlaşılır. Açık sarı zemin, kırmızı logo ve meyve çizimi ön yüzde ürünü bir bakışta anlatıyor.",
+      "Asıl emek kalıpta. Açılım çizildi, besin tablosu kutunun içine oturdu, yan yüzler bilgiyi sıkıştırmadan taşıyor. Ambalaj burada bir resim değil, katlanan bir sistem.",
+      "Logo ve kalıp Illustrator’da kuruldu. Ön yüz ile bilgi tablosu aynı ızgarada buluşunca kutu tek parça gibi okunuyor.",
+    ],
     outcome: "Kutu açılımları logo, besin tablosu ve ön yüz uygulamasıyla tamamlandı.",
     services: ["Logo", "Kutu", "Kalıp", "Bilgi tasarımı"],
     images: { hero: "/work/mino-bebe/kalip-1.jpg" },
@@ -108,6 +127,11 @@ export const projects = [
       "Miniklerin elinde duracak bir sözlük. Kelimeler büyük, çizimler az parçalı ve sayfa rengi dolu olmalıydı.",
     concept:
       "Turuncu zemin, düz renkli nesneler ve iki renkli kelime. Sayfa bir poster gibi okunur; ayrıntı çocuğun gözünü yormaz.",
+    story: [
+      "Bir ile üç yaş. Kelime büyük olacak, çizim az parçalı, sayfa rengi dolu. Çocuk postere bakar gibi bakacak.",
+      "Turuncu zemin her sayfada odayı kuruyor. Kelime iki renkle ayrılıyor, nesne düz renk. Ayrıntı azaldıkça kelime öne çıkıyor.",
+      "Kapak ve iç sayfa InDesign’da aynı ızgaraya oturdu. Kitap bir albüm gibi dağılmıyor; her sayfa bir sonrakinin devamı.",
+    ],
     outcome: "Kapak ve iç sayfalar aynı renk ve çizim diliyle kuruldu.",
     services: ["Kapak", "İç sayfa", "İllüstrasyon"],
     images: { hero: "/work/kelime/kapak.jpg" },
@@ -129,6 +153,11 @@ export const projects = [
       "Tipografinin kendi başına görsel olduğu işler: bölüm afişleri, bir söyleşi posteri ve Prado için bir müze afişi.",
     concept:
       "Harf büyür, zemin renklenir, cümle kompozisyonun kendisi olur. Fotoğraf yokken de afiş ayakta durur.",
+    story: [
+      "Fotoğraf yokken afiş ayakta durabilir mi? Bu raftaki işler o soruya cevap. Harf büyüyor, zemin renkleniyor, cümle kompozisyonun kendisi oluyor.",
+      "Madrid ve Tenebrizm bir müze afişi gibi kuruldu. Anlamadan Konuşmak bir söyleşi posteri. Bölüm afişleri ise harfin kendi başına görsel olduğu çalışmalar.",
+      "Tipografi burada süs değil, taşıyıcı. Hiyerarşi, boşluk ve renk yeterli olunca görsel eklemeye gerek kalmıyor.",
+    ],
     outcome: "Bölüm afişleri, Anlamadan Konuşmak ve Madrid / Tenebrizm posteri aynı rafta durur.",
     services: ["Afiş", "Tipografi", "Poster"],
     images: { hero: "/work/tipografi/madrid.jpg" },

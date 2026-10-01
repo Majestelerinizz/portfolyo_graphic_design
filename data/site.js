@@ -1,5 +1,5 @@
 export const site = {
-  name: "Design By KARAGUZEL",
+  name: "Design By KARAGÜZEL",
   designer: "Yusuf KARAGÜZEL",
   role: "Grafik tasarımcı",
   statement:
@@ -11,10 +11,35 @@ export const site = {
   availability: "Grafik tasarım portföyü",
   marquee:
     "Kurumsal kimlik — Afiş — Ambalaj — Dergi — Açık hava — Tipografi — ",
-  aboutTitle: "Seçilmiş işler, tek bir bakışta.",
+  aboutTitle: "Bir marka, önce bakılarak tanınır.",
   about: [
-    "Yusuf Karagüzel, grafik tasarım öğrencisi. Bu portföy kurumsal kimlik klasöründeki işleri kategorilere ayırır: marka sistemi, kafe kimliği, açık hava, ambalaj, çocuk kitabı ve tipografi.",
-    "Her kategoride aynı kural görünür. Logo, afiş, ambalaj ya da sayfa değişse de marka tek bir sesle konuşur.",
+    "Ben Yusuf Karagüzel. Doğuş Üniversitesi’nde grafik tasarım okuyorum. Çizdiğim işaretin afişte, kutuda, menüde ve sayfada aynı sesle durmasını isterim.",
+    "İş bende logo dosyasıyla bitmez. Bir rengin, bir harfin ve bir boşluğun bütün yüzeye yayılıp yayılmadığına bakarım.",
+  ],
+  practiceTitle: "Biz kimiz",
+  practice: [
+    "Design By Karagüzel, tek kişilik bir tasarım pratiği. Kalabalık bir ekip değiliz. Brief’i alan, sistemi kuran ve uygulamayı bozmadan teslim eden aynı kişiyiz.",
+    "Bu yüzden portföy kategorilere ayrıldı. Kurumsal kimlik, açık hava, ambalaj, kitap ve tipografi ayrı raflar. Her rafta aynı soru var: bu parça tek başına da, sistemin içinde de duruyor mu?",
+  ],
+  vision:
+    "Bir markanın, cümle kurulmadan tanındığı bir görsel dil. İnsan logoyu hecelemmeden rengi, işareti ve ritmi hatırlasın.",
+  mission:
+    "Her işte kuralı görünür kılmak. Logo, afiş, kutu ya da sayfa değişse de marka tek sesle konuşsun. Kural bir yüzeyde bozuluyorsa o iş bitmemiştir.",
+  future:
+    "Kendimi bir ajansın ya da marka ekibinin içinde görüyorum. Kimliği baskıya ve ekrana birlikte taşıyan, brief’ten teslimata kadar işin sahibi olan tasarımcı olmak istiyorum. Stüdyoda öğrenilecek çok şey var; getirdiğim şey de net: sistemi kurar, uygulamada dağıtmam.",
+  tools: [
+    {
+      name: "Adobe Illustrator",
+      text: "Logo, işaret, desen ve kutu kalıbı. Çizgiyi temiz tutar, işareti her ölçekte bozulmadan büyütürüm.",
+    },
+    {
+      name: "Adobe Photoshop",
+      text: "Afiş kompozisyonu, görsel düzenleme ve baskıya hazır yüzey. Fotoğraf varsa onu tasarımın hizmetine alırım.",
+    },
+    {
+      name: "Adobe InDesign",
+      text: "Broşür, dergi, menü ve kitap. Izgara, hiyerarşi ve akan metin. Sayfa burada kurulur.",
+    },
   ],
   process: [
     {

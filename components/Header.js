@@ -6,7 +6,7 @@ export function Header() {
     <header className="nav">
       <div className="wrap nav-inner">
         <Link href="/" className="nav-brand">
-          Design By KARAGUZEL
+          Design By KARAGÜZEL
         </Link>
         <nav className="nav-links" aria-label="Ana menü">
           {categories.map((category) => (

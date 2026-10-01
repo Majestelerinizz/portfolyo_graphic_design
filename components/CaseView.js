@@ -7,7 +7,7 @@ export function CaseView({ project, index, next }) {
   return (
     <article className="case">
       <div className="wrap">
-        <Link href="/#work" className="text-link case-back">
+        <Link href="/#kategoriler" className="text-link case-back">
           Tüm işler
         </Link>
         <div className="case-hero">
@@ -50,6 +50,15 @@ export function CaseView({ project, index, next }) {
             <p>{project.concept}</p>
           </section>
         </div>
+
+        {project.story?.length ? (
+          <section className="story">
+            <h2>Bu iş</h2>
+            {project.story.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </section>
+        ) : null}
 
         <div className="gallery">
           {project.gallery.map((item) => (
