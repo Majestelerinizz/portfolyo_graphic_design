@@ -198,11 +198,17 @@ a:focus-visible {
   display: grid;
   place-items: center;
   text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.14em;
   font-size: 0.68rem;
   line-height: 1.25;
   transform: rotate(-8deg);
+}
+
+a.stamp:hover {
+  background: var(--signal);
+  color: #1a0a33;
 }
 
 .section-head {
@@ -373,11 +379,12 @@ li:last-child .row {
   padding: 5.5rem 0;
 }
 
-.about-grid {
+.about-grid,
+.studio-grid {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
   gap: clamp(1.5rem, 4vw, 4rem);
-  align-items: end;
+  align-items: center;
 }
 
 .about-copy {
@@ -386,10 +393,139 @@ li:last-child .row {
   font-size: 1.05rem;
 }
 
-.monogram svg {
+.portrait {
+  margin: 0;
+  width: min(100%, 420px);
+  justify-self: end;
+}
+
+.portrait img {
   display: block;
-  width: min(100%, 460px);
-  margin-left: auto;
+  width: 100%;
+  height: auto;
+  background: #efeaf8;
+  box-shadow: 0 22px 50px rgba(10, 4, 28, 0.28);
+}
+
+.portrait figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.68rem;
+}
+
+.wall,
+.palette-band,
+.studio,
+.home-process,
+.home-tools,
+.close-band {
+  padding: 3.6rem 0;
+}
+
+.wall-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.plate-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  background: rgba(255, 255, 255, 0.96);
+  color: #161226;
+  text-decoration: none;
+  box-shadow: 0 18px 40px rgba(10, 4, 28, 0.18);
+}
+
+.plate-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  background: #f7f4ee;
+}
+
+.plate-card-copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding: 0.75rem 0.9rem 0.9rem;
+}
+
+.plate-card-copy strong {
+  font-family: var(--display);
+  font-size: clamp(1.35rem, 2vw, 2rem);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.plate-card-copy em {
+  flex: none;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.68rem;
+  color: #8a5a12;
+}
+
+.plate-card:hover strong {
+  font-style: italic;
+}
+
+.swatches {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.swatches li {
+  display: flex;
+  align-items: flex-end;
+  min-height: 8.5rem;
+  padding: 0.85rem;
+}
+
+.swatches span {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.68rem;
+  font-weight: 500;
+}
+
+.studio h2,
+.close-band h2 {
+  font-family: var(--display);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 0.92;
+}
+
+.studio h2 {
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  margin-bottom: 0.4rem;
+}
+
+.close-band h2 {
+  font-size: clamp(2.8rem, 7vw, 6rem);
+  margin: 0.2rem 0 1.1rem;
+}
+
+.footer-meta a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-meta a:hover {
+  color: var(--signal);
 }
 
 .process-grid {
@@ -788,14 +924,24 @@ li:last-child .row {
 @media (max-width: 980px) {
   .index-layout,
   .about-grid,
+  .studio-grid,
   .about-panels,
   .case-hero,
   .essay,
   .plates,
   .gallery,
   .category-grid,
-  .tool-grid {
+  .tool-grid,
+  .swatches {
     grid-template-columns: 1fr;
+  }
+
+  .wall-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .swatches {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .gallery .is-wide {
@@ -821,8 +967,9 @@ li:last-child .row {
     text-align: left;
   }
 
-  .monogram svg {
-    margin-left: 0;
+  .portrait {
+    justify-self: start;
+    width: min(100%, 360px);
   }
 
 }
@@ -908,8 +1055,27 @@ li:last-child .row {
   .about,
   .process,
   .contact,
-  .case {
+  .case,
+  .wall,
+  .palette-band,
+  .studio,
+  .home-process,
+  .home-tools,
+  .close-band {
     padding: 2.4rem 0 3rem;
+  }
+
+  .wall-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .plate-card img {
+    height: auto;
+    flex: none;
+  }
+
+  .swatches li {
+    min-height: 5.5rem;
   }
 
   .category-block {
@@ -972,6 +1138,10 @@ li:last-child .row {
     grid-template-columns: 1fr;
   }
 
+  .swatches {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .stamp {
     align-self: flex-start;
   }
@@ -985,5 +1155,10 @@ li:last-child .row {
   .marquee-track,
   .stage-media {
     animation: none;
+  }
+
+  a.stamp:hover {
+    background: transparent;
+    color: var(--signal);
   }
 }

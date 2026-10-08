@@ -1,5 +1,5 @@
 import { site } from "@/data/site"
-import { Monogram } from "@/components/Plate"
+import { Portrait } from "@/components/Portrait"
 
 export const metadata = {
   title: "Hakkında",
@@ -18,7 +18,7 @@ export default function AboutPage() {
             </p>
           ))}
         </div>
-        <Monogram />
+        <Portrait />
       </div>
 
       <section className="process" aria-labelledby="practice-title">

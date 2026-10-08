@@ -11,6 +11,16 @@ export const site = {
   availability: "Grafik tasarım portföyü",
   marquee:
     "Kurumsal kimlik — Afiş — Ambalaj — Dergi — Açık hava — Tipografi — ",
+  portrait: "/portrait/yusuf-karaguzel.jpg",
+  portraitAlt: "Yusuf Karagüzel",
+  swatches: [
+    { name: "Green Bird", color: "#65be41", ink: "#10240c" },
+    { name: "Gaia", color: "#ed4e3d", ink: "#2c0c08" },
+    { name: "Velora", color: "#d2a459", ink: "#2a1608" },
+    { name: "Mino Bebe", color: "#f0cb70", ink: "#2c2208" },
+    { name: "Kelime", color: "#f57e20", ink: "#2c1204" },
+    { name: "Madrid", color: "#14110e", ink: "#e7d3b0" },
+  ],
   aboutTitle: "Bir marka, önce bakılarak tanınır.",
   about: [
     "Ben Yusuf Karagüzel. Doğuş Üniversitesi’nde grafik tasarım okuyorum. Çizdiğim işaretin afişte, kutuda, menüde ve sayfada aynı sesle durmasını isterim.",
