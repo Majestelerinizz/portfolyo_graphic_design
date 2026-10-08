@@ -11,7 +11,7 @@ export const site = {
   availability: "Grafik tasarım portföyü",
   marquee:
     "Kurumsal kimlik — Afiş — Ambalaj — Dergi — Açık hava — Tipografi — ",
-  portrait: "/portrait/yusuf-karaguzel.jpg",
+  portrait: "/portrait/yusuf-karaguzel.jpg?v=2",
   portraitAlt: "Yusuf Karagüzel",
   swatches: [
     { name: "Green Bird", color: "#65be41", ink: "#10240c" },
